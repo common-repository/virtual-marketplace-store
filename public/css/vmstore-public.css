@@ -1,0 +1,365 @@
+.vms-clearfix {
+  overflow: auto;
+}
+
+.vms-clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.vmp_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+}
+
+.vmp_screenshot {
+  height: 76px;
+  width: 96px;
+  display: block;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #eee;
+  flex-basis: 45%;
+  margin: 0px 5px 5px 0;
+}
+
+.vmp_faq {
+  margin: 0 0 15px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.vmp_faq:before {
+  content: "+";
+  display: block;
+  float: left;
+  margin-left: -20px;
+}
+
+.vmp_faq.faq-active:before {
+  content: "-";
+}
+
+.vmp_faq .vmp_faq-question {
+  font-weight: bold;
+}
+
+.vmp_faq .vmp_faq-answer {
+  display: none;
+}
+
+.vmp_faq.faq-active .vmp_faq-answer {
+  display: block;
+}
+
+.vmstore-package header {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.vmstore-package header img, .vmstore-package-header-icon {
+  height: 120px;
+  width: 120px;
+  margin-right: 20px;
+  font-size: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vmstore-package-actions {
+  min-width: 250px;
+  margin-left: auto;
+}
+
+.vmstore-package-actions .package-pricing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vmstore-package-actions .package-cta {
+  width: 100%;
+
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+
+  height: inherit;
+  color: #fff;
+  background-color: #4caf50;
+  font-size: 20px;
+  padding: 14px 16px;
+  line-height: 1;
+
+  box-sizing: border-box;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: baseline;
+  text-align: center;
+  margin: 0;
+  min-width: 88px;
+  line-height: 36px;
+  padding: 0 16px;
+  border-radius: 2px;
+  overflow: visible;
+  transform: translate3d(0,0,0);
+  transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
+
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.vmstore-package-actions .package-pricing div {
+  flex: 1 0 calc(50%);
+}
+
+.vmstore-package-actions .package-pricing .pricing-minimum {
+  text-align: right;
+}
+
+.vmstore-package.entry h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.vmstore-package.entry h1:before {
+  display: none;
+}
+
+.vmpackage-section {
+  max-width: 1080px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.product-content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vmproduct-section {
+  margin-bottom: 30px;
+}
+
+.vmstore-tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.vmstore-tags li {
+  background-color: #e0e0e0;
+  border:1px solid #e0e0e0;
+  color: rgba(0,0,0,.87);
+  transition: box-shadow 280ms cubic-bezier(.4,0,.2,1);
+  display: inline-flex;
+  padding: 7px 12px;
+  border-radius: 16px;
+  align-items: center;
+  cursor: default;
+  min-height: 32px;
+  height: 1px;
+  font-size: 14px;
+  margin: 0 3px 3px 0;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.vmpackage-card-toggles.vmstore-tags {
+  margin-bottom: 20px;
+}
+
+.vmpackage-card-toggles.vmstore-tags li {
+  cursor: pointer;
+}
+
+.vmpackage-card-toggles.vmstore-tags li:hover, .vmpackage-card-toggles.vmstore-tags li.vmstore-active {
+  background: #fff;
+  color: #666;
+}
+
+.package-header-content-container {
+  display: flex;
+}
+
+.package-header-content-container, .product-content-container .product-content-body-container {
+  flex-basis: 68%;
+  margin-right: 2%;
+}
+.package-header-sidebar-container, .product-content-container .product-content-sidebar-container {
+  flex-basis: 30%;
+}
+
+/* Product Toggle Header Styles */
+.vmstore-product-headers {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.vmstore-product-toggle {
+  text-align: center;
+  min-width: 170px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.vmstore-product-icon {
+  height: 45px;
+  width: 45px;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vmstore-hidden {
+  display: none;
+}
+
+.vmstore-active {
+  background: #eee;
+}
+
+.vmstore-product-title {
+  font-size: 16px;
+}
+
+/* Card Styles */
+.vmp_package_icon {
+  width: 60px;
+  height: 60px;
+}
+
+.vmstore-card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vmstore-card {
+  flex: 1 0 calc(33% - 10px);
+  margin: 0 5px 15px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
+  min-width: 250px;
+  max-width: calc(33% - 10px);
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+.vmstore-card:hover {
+  transform: translateY(-5px);
+}
+
+body .vmstore-card a.vmstore-card-body {
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: none;
+  color: #333;
+  flex-basis: 100%;
+}
+
+.vmstore-card-action {
+  text-align: right;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.vmstore-card-image {
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  height: 120px;
+}
+
+.vmstore-card .vmstore-card-content {
+  display: flex;
+  min-height: 110px;
+}
+
+.vmstore-card .vmstore-card-content .vmstore-card-icon {
+  height: 45px;
+  width: 45px;
+  flex-basis: 45px;
+  margin: 10px;
+  background-size: cover;
+}
+
+.vmstore-card .vmstore-card-content .vmstore-card-info {
+  flex:1;
+  margin-right: 5px;
+}
+
+.vmstore-card-title {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.vmstore-card-tagline {
+  font-size: 0.8em;
+}
+
+.vmstore-graphic-missing:before {
+  display: inline-flex;
+  content: attr(data-title);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.vmstore-card-icon.vmstore-graphic-missing, .vmstore-product-icon.vmstore-graphic-missing {
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .vmpackage-section {
+    padding: 0 30px;
+  }
+
+  .package-header-content-container, .vmstore-package header {
+    display: block;
+    text-align: left;
+  }
+
+  .vmstore-package header>div {
+    margin-bottom: 15px;
+  }
+
+  .vmstore-package header img {
+    margin: 0 auto;
+  }
+
+  .vmstore-package-actions {
+    text-align: left;
+  }
+
+  .vmstore-package-actions .package-cta {
+    width: 100%;
+  }
+
+  .package-header-content-container, .product-content-container .product-content-body-container {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+  .package-header-sidebar-container, .product-content-container .product-content-sidebar-container {
+    flex-basis: 100%;
+  }
+}

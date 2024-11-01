@@ -1,0 +1,297 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#menu-posts-vmstore-product>ul>li:nth-of-type(3) {
+  display: none;
+}
+
+/**
+* Settings page css 
+*/
+
+
+.vmstore_page_vmstore-product-admin {
+  background: #fff;
+}
+
+.wrap.vmstore-form {
+    width: 940px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.vmstore-form h1 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0 0 0.5em 0;
+    clear: both;
+}
+
+.vmstore-form h2 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    clear: both;
+}
+
+#vmstore_options h2 {display: none;}
+
+.vmstore-form h3, .vmstore-form .form-header {
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    clear: both;
+}
+
+.vmstore-form hr {
+    float: left;
+    margin-right: 20px;
+    width: 100%;
+    max-width: 940px;
+    margin: 8px 0;
+    height: 1px;
+    border: 0;
+    background-color: #DADADA;
+    clear: both;
+}
+
+.vmstore-form .form-header {
+    float: left;
+    margin-right: 0;
+    width: 460px;
+    font-weight: bold;
+    color: #3FB23F;
+    text-transform: uppercase;
+}
+
+.vmstore-form .help-block, .vmstore-form .section-description {
+    overflow: hidden;
+    *zoom: 1;
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+    color: #666666;
+    font-size: 1em;
+    padding-top: 8px;
+}
+
+.vmstore-form .control-group {
+    overflow: hidden;
+    *zoom: 1;
+    clear: both;
+    padding: 8px 0;
+}
+
+.vmstore-form .control-label {
+    float: left;
+    margin-right: 20px;
+    width: 140px;
+}
+
+.vmstore-form input[type="text"], .vmstore-form input[type="password"], .vmstore-form input[type="email"], .vmstore-form input[type="date"], .vmstore-form input[type="time"], .vmstore-form input[type="datetime"], .vmstore-form input[type="number"], .vmstore-form textarea, .vmstore-form select {
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+    max-width: 95%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 28px;
+    font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    border: 1px solid #DADADA;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-transition: border 0.2s linear, box-shadow 0.2s linear;
+    -o-transition: border 0.2s linear, box-shadow 0.2s linear;
+    -webkit-transition: border 0.2s linear, box-shadow 0.2s linear;
+    transition: border 0.2s linear, box-shadow 0.2s linear;
+}
+
+.vmstore-form textarea {
+    height: 95px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #DADADA;
+}
+
+.vmstore-form .help-block, .vmstore-form .section-description {
+    overflow: hidden;
+    *zoom: 1;
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+    color: #666666;
+    font-size: 1em;
+    padding-top: 8px;
+}
+
+/* Buttons / Actions */
+
+.vmstore_page_vmstore-product-admin input[type=button], .vmstore_page_vmstore-product-admin button {
+    font-size: 14px;
+    font-weight: normal;
+    background: #fff;
+    border: 1px solid #057EC1;
+    color: #057EC1;
+    height: 30px;
+    min-width: 110px;
+    padding: 6px 25px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.vmstore_page_vmstore-product-admin .primary-action, .vmstore_page_vmstore-product-admin  .add-button,.vmstore_page_vmstore-product-admin .remove-button {
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #057EC1;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+}
+
+.vmstore_page_vmstore-product-admin .secondary-action {
+    font-size: 14px;
+    font-weight: normal;
+    background: none;
+    border: 1px solid #057EC1;
+    color: #057EC1;
+    height: 30px;
+    min-width: 110px;
+    padding: 6px 25px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.vmstore_page_vmstore-product-admin .add-button {
+    background-color: #3FB23F;
+}
+
+.vmstore_page_vmstore-product-admin .remove-button {
+    background-color: #C42727;
+}
+
+.vmstore-form .v-button-group {
+    width: 100%;
+}
+
+.v-button-group {width: 100%;}
+
+.v-button-group.v-button-group-small label, .v-button-group.v-button-group-small button, .v-button-group.v-button-group-small .base-table .table-load-more, .base-table .v-button-group.v-button-group-small .table-load-more, .v-button-group.v-button-group-small [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button, [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .v-button-group.v-button-group-small .ui-button, .v-button-group.v-button-group-small a, .vmstore-form .v-button-group.v-button-group-small label, .vmstore-form .v-button-group.v-button-group-small button, .vmstore-form .v-button-group.v-button-group-small .base-table .table-load-more, .base-table .vmstore-form .v-button-group.v-button-group-small .table-load-more, .vmstore-form .v-button-group.v-button-group-small [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button, [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .vmstore-form .v-button-group.v-button-group-small .ui-button, .vmstore-form .v-button-group.v-button-group-small a {
+    font-size: 12px;
+    height: 30px;
+}
+
+.v-button-group label:first-of-type, .v-button-group button:first-of-type, .v-button-group .base-table .table-load-more:first-of-type, .base-table .v-button-group .table-load-more:first-of-type, .v-button-group [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:first-of-type, [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .v-button-group .ui-button:first-of-type, .v-button-group a:first-of-type, .vmstore-form .v-button-group label:first-of-type, .vmstore-form .v-button-group button:first-of-type, .vmstore-form .v-button-group .base-table .table-load-more:first-of-type, .base-table .vmstore-form .v-button-group .table-load-more:first-of-type, .vmstore-form .v-button-group [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:first-of-type, [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .vmstore-form .v-button-group .ui-button:first-of-type, .vmstore-form .v-button-group a:first-of-type {
+    -moz-border-radius: 2px 0 0 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px 0 0 2px;
+}
+
+.v-button-group label, .v-button-group button, .v-button-group .base-table .table-load-more, .base-table .v-button-group .table-load-more, .v-button-group [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button, [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .v-button-group .ui-button, .v-button-group a, .vmstore-form .v-button-group label, .vmstore-form .v-button-group button, .vmstore-form .v-button-group .base-table .table-load-more, .base-table .vmstore-form .v-button-group .table-load-more, .vmstore-form .v-button-group [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button, [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .vmstore-form .v-button-group .ui-button, .vmstore-form .v-button-group a {
+    cursor: pointer;
+    display: table-cell;
+    border: 1px solid #E5E5E5;
+    border-right: none;
+    padding: 0 10px;
+    margin: 0;
+    vertical-align: middle;
+    height: 40px;
+    width: auto;
+    min-width: inherit;
+    background-color: #FFFFFF;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    text-align: center;
+    font-size: 16px;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    outline: none;
+}
+
+.v-button-group label:last-of-type, .v-button-group button:last-of-type, .v-button-group .base-table .table-load-more:last-of-type, .base-table .v-button-group .table-load-more:last-of-type, .v-button-group [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:last-of-type, [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .v-button-group .ui-button:last-of-type, .v-button-group a:last-of-type, form.v-form .v-button-group label:last-of-type, form.v-form .v-button-group button:last-of-type, form.v-form .v-button-group .base-table .table-load-more:last-of-type, .base-table form.v-form .v-button-group .table-load-more:last-of-type, form.v-form .v-button-group [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:last-of-type, [role='dialog'].ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset form.v-form .v-button-group .ui-button:last-of-type, form.v-form .v-button-group a:last-of-type {
+    border-right: 1px solid #DADADA;
+    -moz-border-radius: 0 2px 2px 0;
+    -webkit-border-radius: 0;
+    border-radius: 0 2px 2px 0;
+}
+
+.vmstore-form .v-box-heading {
+    border: 1px solid #DADADA;
+    margin-bottom: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.vmstore-form .action-tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+.vmstore-form .action-tabs .action-tab {
+    display: inline-flex;
+    padding: 7px;
+    margin-bottom: 0;
+}
+
+.vmstore-form .action-tabs .action-tab.action-right {
+    position: absolute;
+    right: 0;
+}
+
+.vmstore-form .action-tabs .action-tab.selected a {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #F6F6F6;
+}
+
+.vmstore-form .action-tabs .action-tab.action-btn.selected a.primary-action {
+    color: #057EC1;
+    border-color: #057EC1;
+    background-color: #fff;
+}
+
+.vmstore-form .action-tabs .action-tab a {
+    padding: 9px;
+    display: block;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    font-family: arial;
+    text-decoration: none;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
